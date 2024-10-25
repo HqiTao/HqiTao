@@ -1,5 +1,10 @@
 ### Hi there 👋
 
+ ### Profile Views :<br>
+ <p>
+  <img src="https://count.getloli.com/get/@:HqiTao" alt=":HqiTao" />
+</p>
+
 <!--
 **HqiTao/HqiTao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
