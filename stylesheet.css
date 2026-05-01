@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body, td, th, tr, p, a, strong, papertitle, button, input, select, textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #282828;
+}
+
+heading, h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #282828;
+}
+
+name, h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #282828;
+}
+
+a {
+  color: #394FC1 !important;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #23527c !important;
+  text-decoration: underline;
+  background-color: #F2E8D8 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+button, .btn {
+  font-size: 16px;
+  font-weight: 400 !important;
+  color: #282828;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+button:hover, .btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
+.one {
+  /*width: 160px;*/
+  /*height: 160px;*/
+  position: relative;
+}
+
+.two {
+  /*width: 160px;*/
+  /*height: 160px;*/
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+/* Publication Filter Styles */
+.filter-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #394FC1;
+  color: #394FC1;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: #e9ecef;
+  border-color: #23527c;
+  color: #23527c;
+}
+
+.filter-btn.active {
+  background-color: #394FC1;
+  border-color: #394FC1;
+  color: #fff;
+}
+
+.publication-item {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.publication-item.hidden,
+#publications-table tr.hidden {
+  display: none;
+}
+
+.filter-btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+papertitle, a papertitle {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #282828 !important;
+}
+
+.pub-filter-menu {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #282828;
+  font-family: inherit;
+}
+
+.pub-filter-link {
+  color: #394FC1;
+  cursor: pointer;
+  font-weight: 400 !important;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.pub-filter-link:hover,
+.pub-filter-link:focus {
+  text-decoration: underline;
+  color: #23527c;
+  background-color: #F2E8D8 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.pub-filter-link.active {
+  font-weight: bold !important;
+  color: #394FC1;
+  text-decoration: none;
+}
+
+/* Bold links in the first paragraph (intro section) */
+td > p:first-of-type a {
+  font-weight: bold !important;
+}
+
+#publications-table strong {
+  font-weight: bold !important;
+  color: #394FC1 !important;
+}
+
+.best-paper-note {
+  color: red !important;
+  font-weight: bold !important;
+}
+
+/* Preserve red text for special mentions like best paper nominations */
+#publications-table font[color="red"] strong {
+  color: red !important;
+}
+
+#publications-table .tdimg,
+#publications-table .tdcontent {
+  vertical-align: top !important;
+  padding: 30px 20px !important;
+}
+
+#publications-table .tdimg img,
+#publications-table .tdimg video {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  display: block;
+}
+
+#publications-table .author-name {
+  color: #394FC1 !important;
+  font-weight: 400 !important;
+}
+
+/* Ensure author links are not bold */
+#publications-table .author-name a {
+  font-weight: 400 !important;
+}
+#publications-table .yutong-bai {
+  color: #394FC1 !important;
+  font-weight: bold !important;
+}
+#publications-table .huaqi-tao {
+  color: #394FC1 !important;
+  font-weight: bold !important;
+}
+
+/* Remove italic styling from all em tags */
+em {
+  font-style: normal !important;
+}
+
+/* Base styling for publication rows */
+#publications-table tr {
+  transition: all 0.2s ease-in-out;
+  border-radius: 8px;
+  margin: 4px 0;
+}
+
+/* Hover effect for publication rows */
+#publications-table tr:hover {
+  background-color: #F2E8D8 !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-2px) !important;
+  border-radius: 8px !important;
+}
+
+/* News Section */
+.news-content {
+  padding: 0;
+}
+
+.news-content.collapsed {
+  display: none;
+}
+
+#news-table {
+  display: block;
+}
+
+#news-table.hidden {
+  display: none;
+}
+
+/* News toggle hover effect */
+#news-toggle {
+  padding: 2px 4px;
+}
+#news-toggle:hover {
+  background-color: #F2E8D8 !important;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 0 16px;
+  }
+
+  .pub-filter-menu {
+    display: block !important;
+    margin-top: 8px;
+    margin-left: 0 !important;
+    line-height: 1.8;
+  }
+
+  #publications-table tbody,
+  #publications-table tr,
+  #publications-table .tdimg,
+  #publications-table .tdcontent {
+    display: block;
+    width: 100% !important;
+  }
+
+  #publications-table .tdimg {
+    padding: 20px 20px 8px !important;
+  }
+
+  #publications-table .tdcontent {
+    padding: 8px 20px 24px !important;
+  }
+
+  #publications-table tr:hover {
+    transform: none !important;
+  }
+
+  #news-table td {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  #news-content ul {
+    padding-left: 18px;
+    margin-bottom: 0;
+  }
+}
